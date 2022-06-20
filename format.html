@@ -1,0 +1,93 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Võ Hoàng Gia Tín</title>
+    <!--internal css-->
+    <!-- <style> 
+    h1{
+        color:blueviolet;
+        font-size: 70px;
+    }
+    </style>
+    dùng id( select 1 cái) hoặc class(chọn nhiều) để đặt cho các tiêu đề: id=""( dấu # rồi tới tên id), class=""(dấu . ròi tứi tên class)-->
+    <link rel = "stylesheet" href = "form.css">
+    <style> 
+    html, header{
+        margin: 0;
+    }
+        body{
+            background-image: url("https://i.pinimg.com/550x/09/52/0b/09520b1a98cbc7f36b5dca3aa06b2d2c.jpg"),
+            url("https://i.pinimg.com/736x/e3/f2/7c/e3f27cb36c8fbff80878876c939f85d8.jpg");
+            background-size: 300px ;
+            background-repeat: repeat;
+        }  
+        .box{
+            width: 100px;
+            height: 100px;
+            background: #ccc ;
+        }
+        .box::after{
+        
+        content: attr(data-title);
+    }  
+    .box:hover{
+        background-color: #333;
+    }
+    .h2:hover{
+        color:blue
+    }
+    </style>
+</head>
+<body>
+    <div class = "box" data-title = " rem"></div>
+   <div>   
+    <H1 style = "color:blueviolet;font-size: 50px; "> HELLO CÁC BẠN!!!</H1>
+    <h2> 20127645 </h2>
+    <h2>vo hoang gia tin</h2>
+    <input name="input" type = "text">
+    <input  type = "checkbox">
+    <input name = "male" type = "radio">
+    <button>register</button>
+    <P style="color:blue"> MÌNH LÀ  vhgt, xin chào các bạn nhé!!!</P> <!--đoạn văn-->
+    <img src ="https://phunugioi.com/wp-content/uploads/2020/03/anh-gai-xinh-cute-sieu-de-thuong.jpg" alt="vũ thị khánh huyền">
+    <!--truy cập tới trang web khác-->
+    <a href = "https://eslint.org/docs/rules/no-unused-vars"> Tới trang fix bug></a>
+   <!--viết danh sách <ul> là dấu chấm; <ol> là số thứ tự-->
+    <ul>    
+        <li> HTML, CSS là gì?   </li>
+        <li>  JavaScript cơ bản   </li>
+    </ul>
+
+    <!-- bảng-->
+    <table> 
+        <!--tiêu đề của bảng-->
+        <thead> 
+            <th> STT   </th>
+            <th>name</th>
+            <th>address</th>
+        </thead>
+<!-- phân thân của bảng-->
+        <tbody> 
+            <tr>
+                <td>1</td>
+                <td>gia tín</td>
+                <td>vn</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>gia tín</td>
+                <td>vn</td>
+            </tr>
+                
+        </tbody>
+    </table>
+</div>
+
+
+</body>
+</html>
