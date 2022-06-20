@@ -1,0 +1,10 @@
+/* đặt tên biến dùng chung cho nhiều h
+:root{
+    --text-color: green;
+}
+h1{
+    color: var(--text-color);
+}
+h2{
+    color: var(--text-color);
+} */
